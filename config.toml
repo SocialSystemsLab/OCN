@@ -1,0 +1,77 @@
+theme = "hugo-assembly"
+baseURL = "https://opencollaboration.network"
+languageCode = "en-US"
+title = "Open Collaboration Network"
+
+# Metadata
+[params]
+  author = "Roberto Valenti"
+  description = "Describing myself"
+
+# banner section (from here on is for assembly theme)
+[params.banner]
+  title = "Welcome to the collaborative world"
+  byline = "A world were competition is trumped by openness"
+
+[params.actions] # CTAs
+  enable = true
+  register = "Join the collaborative!"
+
+# Navigation section
+[params.nav]
+  home = "Home"
+  welcome = "The Network"
+  services = "Services"
+
+  contact = "Contact Us"
+
+  # Welcome section
+[params.welcome]
+  enable = true
+  title = "About the Network"
+  subtitle = "Our purpose and mission is to realign the incentives of producers and consumers"
+  description = "This network aims to enable global collaboration between producers, consumers, to openly and collectively improve the social, economic and ecosystem targets that strive for wellbeing. Participating is free."
+  button_text = "Join us"
+
+# Services section
+[params.services]
+  enable = true
+  title = "Services"
+  subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
+  [[params.services.item]]
+    weight = "A"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Safer"
+
+  [[params.services.item]]
+    weight = "B"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Faster"
+
+  [[params.services.item]]
+    weight = "C"
+    description = "Possimus id dicta consequuntur veritatis, reiciendis at sint distinctio eligend Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Smarter"
+
+
+
+# Contact section
+[params.contact]
+  enable = true
+#   title = "Get In Touch"
+#   message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   name_placeholder = "Your name"
+#   email_placeholder = "Your email"
+#   email_disclaimer = "We'll never share your email with anyone else."
+#   message_placeholder = "Please enter a message."
+#   button_text = "Submit"
+
+# Footer section
+[params.footer]
+  enable = true
+  copy = "2018 &copy; Assembly Inc. | All rights reserved"
+  twitter = ""
+  facebook = ""
+  instagram = ""
+

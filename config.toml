@@ -29,31 +29,46 @@ title = "Open Collaboration Network"
 [params.welcome]
   enable = true
   title = "About the Network"
-  subtitle = "Our purpose and mission is to realign the incentives of producers and consumers"
-  description = "This network aims to enable global collaboration between producers, consumers, to openly and collectively improve the social, economic and ecosystem targets that strive for wellbeing. Participating is free."
+
+  subtitle = "Enable global collaboration between producers, consumers, to openly and collectively improve the social, economic and ecosystem targets that strive for wellbeing. Participating is free."
+  description = "To realign the incentives of producers and consumers in order to develop a more inclusive, open and regenerative form of agriculture. This is obtained by sharing information about the needs of the users, and the processes of the producers. The user will choose matching producers, while the producers will implement measures to satisfy the users’s needs."
   button_text = "Join us"
 
 # Services section
 [params.services]
   enable = true
-  title = "Services"
-  subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  title = "Network Values"
+  subtitle = "Every member of our network agrees with these values"
 
   [[params.services.item]]
     weight = "A"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    button_item_info = "Safer"
+    description = "A consumer’s informed choice affects the producers decisions. In effect, the consumer co-produces with the producer. We agree to take the responsibility to build the society and ecosystem we want to live in everytime we decide what to buy, and from whom."    
+    title = "Consumer's Choice"
 
   [[params.services.item]]
     weight = "B"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    button_item_info = "Faster"
+    description = "Agree on sharing information to allow an open production planning and open optimization of processes: As a Producer we accept to share openly the sales and production information as required by the consumer"
+    title = "Open Data"
 
   [[params.services.item]]
     weight = "C"
-    description = "Possimus id dicta consequuntur veritatis, reiciendis at sint distinctio eligend Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    button_item_info = "Smarter"
+    description = "Any Prosumer can submit proposals for improvement, and the rest of the Prosumer community can  vote with their transactions."
+    title = "Distributed Governance"
 
+[[params.services.item]]
+    weight = "A"
+    description = "Agree that we have to develop mechanisms for open and peer-to-peer validation of credibility for all the shared information."
+    title = "Auditing"
+
+[[params.services.item]]
+    weight = "B"
+    description = "Agree that we have to develop mechanisms for open and peer-to-peer validation of credibility for all the shared information. "
+    title = "Auditing"
+
+[[params.services.item]]
+    weight = "C"
+    description = "Agree that we have to develop mechanisms for open and peer-to-peer validation of credibility for all the shared information. "
+    title = "Auditing"
 
 
 # Contact section

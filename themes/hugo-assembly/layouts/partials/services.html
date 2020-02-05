@@ -7,8 +7,10 @@
       </div>
       {{ range .item }}
       <div class="box{{ .weight }}">
+        <h3>{{.title}}</h3>
+        <br/>
         <p>{{ .description | markdownify }}</p>
-        <a href="#" class="button button-alt">{{ .button_item_info }}</a>
+        <br/>
       </div>
       {{ end }}
     {{ end }}

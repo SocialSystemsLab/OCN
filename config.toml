@@ -6,7 +6,9 @@ title = "Open Collaboration Network"
 # Metadata
 [params]
   author = "Roberto Valenti"
-  description = "Describing myself"
+  description = "Crazy guy"
+  
+  ContractAddress = "0x2af51b0d6ce37089D50FeC29Fd1A7DE21076C2f7"
 
 # banner section (from here on is for assembly theme)
 [params.banner]
@@ -22,7 +24,7 @@ title = "Open Collaboration Network"
   home = "Home"
   welcome = "The Network"
   services = "Services"
-
+  rules = "Collaboration Rules"
   contact = "Contact Us"
 
   # Welcome section
@@ -30,45 +32,50 @@ title = "Open Collaboration Network"
   enable = true
   title = "About the Network"
 
-  subtitle = "Enable global collaboration between producers, consumers, to openly and collectively improve the social, economic and ecosystem targets that strive for wellbeing. Participating is free."
-  description = "To realign the incentives of producers and consumers in order to develop a more inclusive, open and regenerative form of agriculture. This is obtained by sharing information about the needs of the users, and the processes of the producers. The user will choose matching producers, while the producers will implement measures to satisfy the users’s needs."
+  subtitle = "We believe that companies should not exist to simply maximize profits, but to serve the needs of the local and global community."
+  description = "We aim to realign the incentives of producers and consumers in order to develop a more inclusive, open and regenerative form of production. This is achieved by openly sharing information about the needs of the users, and the processes of the producers. The consumer will be able to choose matching producers, while the producers will implement measures in order to satisfy the user’s needs."
   button_text = "Join us"
 
 # Services section
 [params.services]
   enable = true
   title = "Network Values"
-  subtitle = "Every member of our network agrees with these values"
 
   [[params.services.item]]
     weight = "A"
+    description = "Our members join together to openly and collectively improve the social, economic and ecosystem targets that strive for wellbeing."
+    title = "Purpose Driven"
+
+  [[params.services.item]]
+    weight = "B"
     description = "A consumer’s informed choice affects the producers decisions. In effect, the consumer co-produces with the producer. We agree to take the responsibility to build the society and ecosystem we want to live in everytime we decide what to buy, and from whom."    
     title = "Consumer's Choice"
 
   [[params.services.item]]
-    weight = "B"
+    weight = "C"
     description = "Agree on sharing information to allow an open production planning and open optimization of processes: As a Producer we accept to share openly the sales and production information as required by the consumer"
     title = "Open Data"
 
   [[params.services.item]]
-    weight = "C"
+    weight = "A"
+    description = "Producers commit to satisfy the consumer needs, while consumers  commit to make an informed choice over which produce to acquire."
+    title = "Co-production"
+
+  [[params.services.item]]
+    weight = "B"
     description = "Any Prosumer can submit proposals for improvement, and the rest of the Prosumer community can  vote with their transactions."
     title = "Distributed Governance"
 
 [[params.services.item]]
-    weight = "A"
-    description = "Agree that we have to develop mechanisms for open and peer-to-peer validation of credibility for all the shared information."
-    title = "Auditing"
-
-[[params.services.item]]
-    weight = "B"
-    description = "Agree that we have to develop mechanisms for open and peer-to-peer validation of credibility for all the shared information. "
-    title = "Auditing"
-
-[[params.services.item]]
     weight = "C"
     description = "Agree that we have to develop mechanisms for open and peer-to-peer validation of credibility for all the shared information. "
     title = "Auditing"
+
+
+
+
+[params.rules]
+  enable = true
 
 
 # Contact section

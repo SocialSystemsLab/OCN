@@ -17,14 +17,17 @@ title = "Open Collaboration Network"
 
 [params.actions] # CTAs
   enable = true
-  register = "Join the collaborative!"
+  register = "Join the collective!"
+  action ="https://forum.opencollaboration.network"
 
 # Navigation section
 [params.nav]
   home = "Home"
   welcome = "The Network"
-  services = "Services"
+  services = "Values"
   rules = "Collaboration Rules"
+  forum = "Forum"
+  collective = "Open Collective"
   contact = "Contact Us"
 
   # Welcome section
@@ -35,6 +38,7 @@ title = "Open Collaboration Network"
   subtitle = "We believe that companies should not exist to simply maximize profits, but to serve the needs of the local and global community."
   description = "We aim to realign the incentives of producers and consumers in order to develop a more inclusive, open and regenerative form of production. This is achieved by openly sharing information about the needs of the users, and the processes of the producers. The consumer will be able to choose matching producers, while the producers will implement measures in order to satisfy the user’s needs."
   button_text = "Join us"
+  button_link = "https://forum.opencollaboration.network"
 
 # Services section
 [params.services]
@@ -48,12 +52,12 @@ title = "Open Collaboration Network"
 
   [[params.services.item]]
     weight = "B"
-    description = "A consumer’s informed choice affects the producers decisions. In effect, the consumer co-produces with the producer. We agree to take the responsibility to build the society and ecosystem we want to live in everytime we decide what to buy, and from whom."    
+    description = "A consumer’s informed choice affects the producers decisions.  We all share the responsibility to build the society and ecosystem we want everytime we decide what to buy, and from whom."    
     title = "Consumer's Choice"
 
   [[params.services.item]]
     weight = "C"
-    description = "Agree on sharing information to allow an open production planning and open optimization of processes: As a Producer we accept to share openly the sales and production information as required by the consumer"
+    description = "We commit to share information to allow an open production planning and open optimization of processes: we openly share the sales and production information as required by the consumer"
     title = "Open Data"
 
   [[params.services.item]]
@@ -63,31 +67,37 @@ title = "Open Collaboration Network"
 
   [[params.services.item]]
     weight = "B"
-    description = "Any Prosumer can submit proposals for improvement, and the rest of the Prosumer community can  vote with their transactions."
+    description = "Any producers and consumers can submit proposals for improvement, members can vote with their transactions."
     title = "Distributed Governance"
 
 [[params.services.item]]
     weight = "C"
-    description = "Agree that we have to develop mechanisms for open and peer-to-peer validation of credibility for all the shared information. "
-    title = "Auditing"
+    description = "We adopt mechanisms for open and peer-to-peer validation of credibility for all the shared information. "
+    title = "Auditable"
 
 
-
+[params.forum]
+  enable = true
 
 [params.rules]
   enable = true
 
+[params.collective]
+  enable = true
+
+[params.contribute]
+  enable = true
 
 # Contact section
 [params.contact]
-  enable = true
-#   title = "Get In Touch"
-#   message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#   name_placeholder = "Your name"
-#   email_placeholder = "Your email"
-#   email_disclaimer = "We'll never share your email with anyone else."
-#   message_placeholder = "Please enter a message."
-#   button_text = "Submit"
+  enable = false
+  title = "Apply to be a member "
+  message = "Everone is welcome. "
+  name_placeholder = "Your name" 
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
 
 # Footer section
 [params.footer]

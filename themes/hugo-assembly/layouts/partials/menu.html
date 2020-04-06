@@ -3,14 +3,21 @@
     {{ if .Site.Params.nav.home }}
       <li class="active"><a href="#" accesskey="1" title="">{{ with .Site.Params.nav.home }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
+    
      {{ if .Site.Params.services.enable }}
       <li><a href="#services" accesskey="2" title="">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
      {{ if .Site.Params.welcome.enable }}
       <li><a href="#welcome" accesskey="3" title="">{{ with .Site.Params.nav.welcome }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
+    {{ if .Site.Params.forum.enable }}
+    <li><a href="https://forum.opencollaboration.network" accesskey="4" title="">{{ with .Site.Params.nav.forum }}{{ . | markdownify }}{{ end }}</a></li>
+    {{ end }}
+    {{ if .Site.Params.collective.enable }}
+    <li><a href="https://opencollective.com/open-collaboration-network" accesskey="5" title="">{{ with .Site.Params.nav.collective }}{{ . | markdownify }}{{ end }}</a></li>
+    {{ end }}
      {{ if .Site.Params.contact.enable }}
-      <li><a href="#copyright" accesskey="4" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a></li>
+      <li><a href="#copyright" accesskey="6" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
   </ul>
 </div>

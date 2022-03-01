@@ -1,7 +1,7 @@
 theme = "hugo-assembly"
 baseURL = "https://opencollaboration.network"
 languageCode = "en-US"
-title = "Open Collaboration Network"
+title = "Open Collaboration Networks"
 
 # Metadata
 [params]
@@ -26,7 +26,6 @@ title = "Open Collaboration Network"
   welcome = "The Network"
   services = "Values"
   rules = "Collaboration Rules"
-  forum = "Forum"
   collective = "Open Collective"
   contact = "Contact Us"
 
@@ -77,7 +76,7 @@ title = "Open Collaboration Network"
 
 
 [params.forum]
-  enable = true
+  enable = false
 
 [params.rules]
   enable = true

@@ -1,7 +1,7 @@
 theme = "hugo-assembly"
 baseURL = "https://opencollaboration.network"
 languageCode = "en-US"
-title = "Open Collaboration Networks"
+title = "Social Systems Lab"
 
 # Metadata
 [params]
@@ -12,7 +12,7 @@ title = "Open Collaboration Networks"
 
 # banner section (from here on is for assembly theme)
 [params.banner]
-  title = "Welcome to the collaborative world"
+  title = "Welcome to Social Systems Lab"
   byline = "A world were competition is trumped by openness"
 
 [params.actions] # CTAs
